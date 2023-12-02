@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/use-package",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A utility to provide package.json data.",
   "private": false,
   "main": "dist/index.js",
