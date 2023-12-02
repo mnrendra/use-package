@@ -1,8 +1,10 @@
 import { readPackage } from '@mnrendra/read-package'
 
-import { pack, clonePackage } from '.'
+import pack from './pack'
 
-describe('Test `index`.', () => {
+import clonePackage from './clonePackage'
+
+describe('Test `clonePackage`.', () => {
   beforeAll(async () => {
     await clonePackage()
   })
