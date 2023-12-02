@@ -1,3 +1,13 @@
-import main from './main'
+import type { Package } from '@mnrendra/types-package'
 
-export default main
+import pack from './pack'
+import clonePackage from './clonePackage'
+
+export type {
+  Package
+}
+
+export {
+  clonePackage,
+  pack
+}
